@@ -1,0 +1,59 @@
+.link{
+  position: absolute;
+  top: 5px;
+  left: 0;
+  color: #fff;
+  text-decoration: none;
+  .img{
+    width: 150px;
+    @media(min-width: 768px){
+      width: 210px;
+    }
+  }
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("../../public/bgReg.webp") center/cover no-repeat;
+}
+.h1{
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.author{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  @media(min-width: 768px){
+    width: 40%;
+  }
+}
+.name{
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.social{
+  display: flex;
+  align-items: center;
+}
+.socialLink{
+  text-decoration: none;
+  .svg {
+    width: 35px;
+    height: 35px;
+    color: #000;
+    margin-right: 10px;
+    cursor: pointer;
+    &:hover {
+      color: #F9B613;
+    }
+  }
+}
