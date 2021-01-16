@@ -1,7 +1,8 @@
-export default function Home() {
-  return (
-    <div>
+import {useEffect} from "react";
 
-    </div>
-  )
+export default function Home() {
+  useEffect(() => {
+    location.href = "https://kloosk.github.io/NoTesApp/#/";
+  },[]);
+  return null
 }
